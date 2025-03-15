@@ -1,0 +1,130 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+  }
+  
+  h1, h2, h3 {
+    color: #333;
+  }
+  
+  ul {
+    padding-left: 0;
+    list-style: none;
+  }
+  
+  /* Sticky Header Styles */
+  .sticky-header {
+    position: sticky;
+    top: 0;
+    background-color: #333;
+    z-index: 1000;
+  }
+  
+  .sticky-nav {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    padding: 10px 0;
+  }
+  
+  .sticky-nav ul {
+    display: flex;
+    margin: 0;
+  }
+  
+  .sticky-nav ul li {
+    margin: 0 20px;
+  }
+  
+  .sticky-nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+  }
+  
+  .sticky-nav ul li a:hover {
+    background-color: #555;
+  }
+  
+  /* Banner Section */
+  .banner {
+    background-image: url('hockey-banner.jpg');
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  .banner h1 {
+    font-size: 3em;
+  }
+  
+  .banner p {
+    font-size: 1.2em;
+  }
+  
+  .cta-button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1.2em;
+    cursor: pointer;
+  }
+  
+  .cta-button:hover {
+    background-color: #555;
+  }
+  
+  /* Section Styles */
+  section {
+    padding: 50px 10%;
+    text-align: center;
+  }
+  
+  section img {
+    width: 80%;
+    margin-top: 20px;
+    border-radius: 10px;
+  }
+  
+  /* Resume and About Me Styles */
+  #about-me, #resume {
+    background-color: #fff;
+    margin-top: 20px;
+  }
+  
+  #about-me img, #resume img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .sticky-nav ul {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    section {
+      padding: 50px 5%;
+    }
+  
+    .cta-button {
+      padding: 12px 24px;
+    }
+  }
+  
